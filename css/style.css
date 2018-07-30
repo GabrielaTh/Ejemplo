@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+@import url(file://C:/Users/Kory/Desktop/Code/contact.html)
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Merienda', cursive;
+	background: black;
+
+
+}
+
+header {
+width: 100%;
+height: 50px;
+background: black;
+color: #FFF;
+position: fixed;
+top: 0px;
+left: 0;
+z-index: 100;
+}
+
+.container{
+	width: 100%;
+}
+
+h1 {
+	margin: auto;
+	float: left;
+}
+
+header .container {
+	display: table;
+
+}	
+#logo{
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: url(img/logo.png) 0 0 no-repeat;
+	margin-top: 4px;
+	margin-right: 7px;
+}
+
+/*Banner commence ici*/
+#banner {
+margin-top: 40px;
+position: relative;
+text-align:center;
+}
+
+section{
+ 	width: 100%;
+ 	margin-bottom: 25px;
+ }
+
+#banner img {
+ 	width: 100%;
+ 	height: 100%;
+ 	margin-left: auto;
+ }
+
+#banner .container {
+	position: absolute;
+	top: 0%;
+	left: 35%;
+	transform: translateX(28%) translateY(-410%);
+	color: #FFF;
+	margin:0px;
+	text-align:center;
+
+}
+
+#banner h2{
+	font-size: 28px;
+	text-align: center;
+
+}
+#banner a {
+	display: block;
+	width: 7%;
+	color: #FFF;
+	text-decoration: none;
+	padding: 5px;
+	margin-top: 0px;
+	border: 1px solid #FFF;
+	position: relative;
+}
+
+#banner a:hover {
+	background: rgba(83,79,79,0.5);
+
+}
+#Bienvenue {
+	text-align: center;
+	color: #FFF;
+	margin-top: 10px;
+}
+
+#blog {
+	background: black;
+}
+
+#blog h4 {
+	text-align: center;
+	color: #FFF;
+}
+
+#blog .container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+bo
+}
+#blog article {
+	margin: 15px;
+}
+
+#blog img {
+	width: 100%;
+	max-width: 280px;
+	border-radius: 30%;
+	border: 4px solid #FFF;
+
+}
+
+h2 {
+	text-align: left;
+}
+
+section h2 {
+	text-align: center;
+}
+
+/*Aqui la pagina de contacto*/
+

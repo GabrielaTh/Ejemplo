@@ -1,0 +1,42 @@
+#menu {
+	display: none;
+
+}
+
+header label {
+	float: right;
+	font-size: 28px;
+	margin: 6px 0;
+	cursor: pointer;
+}
+
+.menu {
+	position: : absolute;
+	top: 50px;
+	left: 2px;
+	width: 30%;
+	height: 100vh;
+	background: rgba(8,0,0,0.9);
+	transition: all 0.4s;
+	transform: translateX(-150%);
+	margin-top: 53px;
+
+
+}
+
+.menu a {
+	display: block;
+	color: #FFF;
+	height: 50px;
+	text-decoration: none;
+	padding: 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+
+}
+.menu a:hover {
+	background: 1px solid rgba(255,255,255,0.3);
+
+}
+#menu:checked ~ .menu {
+	transform: translateX(0%);
+}
